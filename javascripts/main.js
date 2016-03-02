@@ -45,7 +45,7 @@ var shadowHierarchy = d3.layout.hierarchy()
   .value(accessors.get(option(shadowSelect)));
 
 var boxes;
-d3.json("../data/dataTree.json", function(error, json) {
+d3.json("data/dataTree.json", function(error, json) {
   if (error) throw error;
   data = json;
   boxes = svg.append('g').selectAll("rect")
