@@ -191,7 +191,7 @@ function placeTooltip(){
 }
 
 function hideTooltip(){
-  // tooltip.transition()
-  //   .duration(400)
-  //   .style("opacity", 0);
+  tooltip.transition()
+    .duration(400)
+    .style("opacity", 0);
 }
