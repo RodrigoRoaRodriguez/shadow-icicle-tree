@@ -3,7 +3,7 @@
 You can check the live demo of this visualization at:
 <http://rodrigoroarodriguez.github.io/shadow-icicle-tree/>
 
-<center>![live demo](images/live_demo.png)</center>
+<center>![live demo](images/live_demo.png)</br></center>
 
 ## Design Brief
 ### Problem Statement
@@ -16,7 +16,7 @@ To represent the data in a manner that combines casual information visualization
 The shadow-icicle-tree (my modified version of the icicle-tree), is a hierarchical visual structure that represents two arbitrary quantitative dimensions of data in the form of shaded boxes.
 
 <center>
- ![shadow-icicle-tree](images/sit.png)
+ ![shadow-icicle-tree](images/sit.png)</br>
 __Figure 1__: The shadow-icicle-tree visual structure.
 </center>
 
@@ -24,7 +24,7 @@ __Figure 1__: The shadow-icicle-tree visual structure.
 The icicle tree displays a hierarchy in the form of stacked rectangles. Every horizontal layer of rectangles is a level in the tree, the children being below their respective parent.
 
  <center>
- ![hierarchy_lvls1and2](images/hierarchy.png)
+ ![hierarchy_lvls1and2](images/hierarchy.png)</br>
 __Figure 2__: First and second levels level of the tree. The root (first level in rose pink) consists of the years 2014(orange), 2015(mauve) and 2016(yellow).
 </center>
 
@@ -38,7 +38,7 @@ The shadow is used to visualize a second arbitrary dimension. The area not cover
 As stated above, any quantitative dimensions can be used as either width or shadow values. There are two selection combo-boxes in the demo.
 
 <center>
- ![selection combo-boxes](images/selection.png)
+ ![selection combo-boxes](images/selection.png)</br>
 __Figure 3__: combo-boxes for selecting the represented dimensions.
 </center>
 
@@ -49,7 +49,7 @@ The Shadow-Icicle-Tree was conceived as an ambient visualization. I assumed that
 By clicking on a node the user will zoom on that node. The clicked node’s width will become the screens width, a little padding is left on top the clicked node so that parent node is still visible so that the user can navigate upwards in the hierarchy.
 
 <center>
-![zooming into a node](images/orange.png)
+![zooming into a node](images/orange.png)</br>
 __Figure 4__: combo-boxes for selecting the represented dimensions.
 </center>
 
